@@ -5,3 +5,7 @@ terraform {
       version = "2.3.0"
     }  }
 }
+provider "azurerm" {
+
+  features {}
+}
